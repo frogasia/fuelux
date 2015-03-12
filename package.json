@@ -1,9 +1,9 @@
 {
-  "name": "fuelux",
+  "name": "fuelux2-standalone",
   "title": "Fuel UX",
   "version": "2.6.5",
-  "description": "Base Fuel UX styles and controls",
-  "homepage": "https://github.com/ExactTarget/fuelux",
+  "description": "Fuel UX 2, without bundled Bootstrap",
+  "homepage": "https://github.com/frogasia/fuelux2-standalone",
   "author": {
     "name": "ExactTarget",
     "email": "aalexander@exacttarget.com",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ExactTarget/fuelux.git"
+    "url": "git://github.com/frogasia/fuelux2-standalone.git"
   },
   "bugs": {
-    "url": "https://github.com/ExactTarget/fuelux/issues"
+    "url": "https://github.com/frogasia/fuelux2-standalone/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/ExactTarget/fuelux/blob/master/COPYING"
+      "url": "https://github.com/frogasia/fuelux2-standalone/blob/master/COPYING"
     }
   ],
   "engines": {
@@ -49,7 +49,7 @@
   "private": true,
   "volo": {
     "baseDir": "lib",
-    "url": "https://raw.github.com/ExactTarget/fuelux/{version}/dist/fuelux.zip",
+    "url": "https://raw.github.com/frogasia/fuelux2-standalone/{version}/dist/fuelux2-standalone.zip",
     "type": "directory",
     "dependencies": {
       "moment": "http://momentjs.com/downloads/moment-with-langs.js"
