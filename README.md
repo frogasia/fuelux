@@ -1,3 +1,7 @@
+# IMPORTANT!
+
+**This repository is a fork of Fuel UX 2.6.5, with the bundled version of Twitter Bootstrap removed.**
+
 **Please note:** Fuel UX 2.x is deprecated. While we will still maintain it (bug fixes only), we suggest looking at FuelUX 3.0. Version 3 is a major overhaul and is built atop Bootstrap 3.
 
 [![Fuel UX](https://s3.amazonaws.com/fuelux/logo-gray.png)](http://exacttarget.github.com/fuelux)
