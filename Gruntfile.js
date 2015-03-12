@@ -154,7 +154,7 @@ module.exports = function (grunt) {
 			}
 		},
 		clean: {
-			dist: ['dist/build.txt', 'dist/fuelux.zip'],
+			dist: ['dist/build.txt', 'dist/fuelux*.zip'],
 			zipsrc: ['dist/fuelux']
 		},
 		copy: {
@@ -175,7 +175,7 @@ module.exports = function (grunt) {
 			zip: {
 				options: {
 					mode: 'zip',
-					archive: 'dist/fuelux.zip'
+					archive: 'dist/fuelux2-standalone.zip'
 				},
 				files: [
 					{
