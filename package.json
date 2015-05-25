@@ -1,7 +1,7 @@
 {
   "name": "fuelux2-standalone",
   "title": "Fuel UX",
-  "version": "2.6.5",
+  "version": "2.6.6",
   "description": "Fuel UX 2, without bundled Bootstrap",
   "homepage": "https://github.com/frogasia/fuelux2-standalone",
   "author": {
