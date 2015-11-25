@@ -125,7 +125,7 @@ define(['require','jquery'],function(require) {
 	// SEARCH DATA-API
 
 	$(function () {
-		$('body').on('mousedown.search.data-api', '.search', function () {
+		$('body').on('mousedown.search.data-api', '.fuelux .search', function () {
 			var $this = $(this);
 			if ($this.data('search')) return;
 			$this.search($this.data());

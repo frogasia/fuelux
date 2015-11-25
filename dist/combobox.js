@@ -174,7 +174,7 @@ define(['require','jquery','./util'],function (require) {
 			});
 		});
 
-		$('body').on('mousedown.combobox.data-api', '.combobox', function () {
+		$('body').on('mousedown.combobox.data-api', '.fuelux .combobox', function () {
 			var $this = $(this);
 			if ($this.data('combobox')) return;
 			$this.combobox($this.data());

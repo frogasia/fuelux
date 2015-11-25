@@ -676,13 +676,14 @@ define('fuelux/combobox',['require','jquery','./util'],function (require) {
 			});
 		});
 
-		$('body').on('mousedown.combobox.data-api', '.combobox', function () {
+		$('body').on('mousedown.combobox.data-api', '.fuelux .combobox', function () {
 			var $this = $(this);
 			if ($this.data('combobox')) return;
 			$this.combobox($this.data());
 		});
 	});
 });
+
 /*
  * Fuel UX Datagrid
  * https://github.com/ExactTarget/fuelux
@@ -2444,13 +2445,14 @@ define('fuelux/pillbox',['require','jquery'],function(require) {
 	// PILLBOX DATA-API
 
 	$(function () {
-		$('body').on('mousedown.pillbox.data-api', '.pillbox', function () {
+		$('body').on('mousedown.pillbox.data-api', '.fuelux .pillbox', function () {
 			var $this = $(this);
 			if ($this.data('pillbox')) return;
 			$this.pillbox($this.data());
 		});
 	});
 });
+
 /*
  * Fuel UX Radio
  * https://github.com/ExactTarget/fuelux
@@ -2589,6 +2591,7 @@ define('fuelux/radio',['require','jquery'],function (require) {
 		});
 	});
 });
+
 /*
  * Fuel UX Select
  * https://github.com/ExactTarget/fuelux
@@ -2765,7 +2768,7 @@ define('fuelux/select',['require','jquery','./util'],function(require) {
             });
         });
 
-        $('body').on('mousedown.select.data-api', '.select', function () {
+        $('body').on('mousedown.select.data-api', '.fuelux .select', function () {
             var $this = $(this);
             if ($this.data('select')) return;
             $this.select($this.data());
@@ -3007,7 +3010,7 @@ define('fuelux/spinner',['require','jquery'],function(require) {
 	// SPINNER DATA-API
 
 	$(function () {
-		$('body').on('mousedown.spinner.data-api', '.spinner', function () {
+		$('body').on('mousedown.spinner.data-api', '.fuelux .spinner', function () {
 			var $this = $(this);
 			if ($this.data('spinner')) return;
 			$this.spinner($this.data());
@@ -3519,7 +3522,7 @@ define('fuelux/scheduler',['require','jquery','fuelux/combobox','fuelux/datepick
     // SCHEDULER DATA-API
 
     $(function () {
-        $('body').on('mousedown.scheduler.data-api', '.scheduler', function () {
+        $('body').on('mousedown.scheduler.data-api', '.fuelux .scheduler', function () {
             var $this = $(this);
             if ($this.data('scheduler')) return;
             $this.scheduler($this.data());
@@ -3655,13 +3658,14 @@ define('fuelux/search',['require','jquery'],function(require) {
 	// SEARCH DATA-API
 
 	$(function () {
-		$('body').on('mousedown.search.data-api', '.search', function () {
+		$('body').on('mousedown.search.data-api', '.fuelux .search', function () {
 			var $this = $(this);
 			if ($this.data('search')) return;
 			$this.search($this.data());
 		});
 	});
 });
+
 /*
  * Fuel UX Tree
  * https://github.com/ExactTarget/fuelux
@@ -4142,7 +4146,7 @@ define('fuelux/wizard',['require','jquery'],function (require) {
 	// WIZARD DATA-API
 
 	$(function () {
-		$('body').on('mouseover.wizard.data-api', '.wizard', function () {
+		$('body').on('mouseover.wizard.data-api', '.fuelux .wizard', function () {
 			var $this = $(this);
 			if ($this.data('wizard')) return;
 			$this.wizard($this.data());

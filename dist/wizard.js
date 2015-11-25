@@ -236,7 +236,7 @@ define(['require','jquery'],function (require) {
 	// WIZARD DATA-API
 
 	$(function () {
-		$('body').on('mouseover.wizard.data-api', '.wizard', function () {
+		$('body').on('mouseover.wizard.data-api', '.fuelux .wizard', function () {
 			var $this = $(this);
 			if ($this.data('wizard')) return;
 			$this.wizard($this.data());

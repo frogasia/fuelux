@@ -231,7 +231,7 @@ define(['require','jquery'],function(require) {
 	// SPINNER DATA-API
 
 	$(function () {
-		$('body').on('mousedown.spinner.data-api', '.spinner', function () {
+		$('body').on('mousedown.spinner.data-api', '.fuelux .spinner', function () {
 			var $this = $(this);
 			if ($this.data('spinner')) return;
 			$this.spinner($this.data());
