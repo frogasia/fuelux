@@ -128,7 +128,7 @@ define(function(require) {
 	// PILLBOX DATA-API
 
 	$(function () {
-		$('body').on('mousedown.pillbox.data-api', '.pillbox', function () {
+		$('body').on('mousedown.pillbox.data-api', '.fuelux .pillbox', function () {
 			var $this = $(this);
 			if ($this.data('pillbox')) return;
 			$this.pillbox($this.data());

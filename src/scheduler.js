@@ -502,7 +502,7 @@ define(function(require) {
     // SCHEDULER DATA-API
 
     $(function () {
-        $('body').on('mousedown.scheduler.data-api', '.scheduler', function () {
+        $('body').on('mousedown.scheduler.data-api', '.fuelux .scheduler', function () {
             var $this = $(this);
             if ($this.data('scheduler')) return;
             $this.scheduler($this.data());
